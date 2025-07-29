@@ -1,5 +1,16 @@
-FindItBack is a full-stack web application designed to help users report and search for lost or found items in their community. Whether someone has misplaced a personal belonging or discovered an unattended item, this platform connects people to return things to their rightful owners. Users can easily post an item with details like title, description, location, and status (lost or found), and others can browse through reported items, apply filters by status, or search by keywords. The application provides functionality to mark items as resolved, view full item details in a modal, or remove them if needed.
+# FindItBack
 
-The frontend of FindItBack is built using React.js along with Tailwind CSS for responsive styling, and React Router for client-side navigation. Axios is used for making HTTP requests. On the backend, it uses Node.js and Express.js, with MongoDB as the database and Mongoose as the ODM. Environment variables are managed using dotenv, and CORS is configured for cross-origin requests. The codebase is organized into separate folders for components, pages, and API logic.
+FindItBack is a full-stack web app I made to help people report and find lost or found items around them. If someone loses something or finds something that doesn’t belong to them, they can post it here with details like title, description, and location. Others can search and filter through the listings to see if their item was found or if they can help return something.
 
-To run the project locally, users need to install dependencies separately for both frontend and backend. The backend requires setting up a .env file with a MongoDB URI and a port number, and the frontend expects a .env file pointing to the backend base URL. After starting both servers (npm start in each), the app runs locally and supports reporting and managing item listings. For deployment, the backend can be hosted on services like Render or Railway, and the frontend on platforms like Vercel or Netlify. In the future, features like user authentication, image uploads, email notifications, and admin controls could enhance the app further. This project is open-source and built with a focus on usability, accessibility, and community support.
+## Features
+
+- Post lost or found items with location, status, and description
+- Search by keywords or filter by status (Lost/Found)
+- View full item details in a modal
+- Mark items as resolved or remove listings when needed
+
+## Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS, React Router, Axios
+- **Backend**: Node.js, Express.js, MongoDB, Mongoose
+- **Other Tools**: dotenv for environment variables, CORS config
